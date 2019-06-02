@@ -22,9 +22,9 @@ import zipfile
 
 
 logging.basicConfig(filename='debug.log', filemode='w+', format='%(asctime)s - %(levelname)s - %(message)s')
-logging.info('--------------------------New Execution--------------------------')
+logging.warning('--------------------------New Execution--------------------------')
 
-OUTPUDIR= '/gil/output/'
+OUTPUDIR= 'output/'
 IMPORTDIR = 'import/'
 TEMPDIR = 'tmp/'
 
